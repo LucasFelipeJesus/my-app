@@ -1,4 +1,4 @@
-import { ScrollView, StyleSheet, View } from "react-native"
+import { StyleSheet, View } from "react-native"
 import { Text } from 'react-native-paper'
 import { Accelerometer, Gyroscope } from "expo-sensors"
 import { useState } from "react"

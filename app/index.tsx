@@ -1,7 +1,7 @@
 import { View, StyleSheet } from 'react-native'
 import { Button, TextInput } from 'react-native-paper'
 import { useAuth } from '../context/auth'
-import { Link } from 'expo-router'
+
 
 export default function Login() {
     const auth = useAuth()

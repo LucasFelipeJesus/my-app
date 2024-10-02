@@ -39,6 +39,15 @@ export default function TabLayout() {
                     tabBarIcon: ({ color }) => <FontAwesome size={28} name="camera-retro" color={color} />,
                 }}
             />
+
+            <Tabs.Screen
+                name="sensor"
+                options={{
+                    title: 'sensor gyroscope',
+                    tabBarIcon: ({ color }) => <FontAwesome size={28} name="angle-right" color={color} />,
+                }}
+            />
+
         </Tabs>
     );
 }
