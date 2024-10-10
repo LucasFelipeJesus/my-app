@@ -47,6 +47,13 @@ export default function TabLayout() {
                     tabBarIcon: ({ color }) => <FontAwesome size={28} name="angle-right" color={color} />,
                 }}
             />
+            <Tabs.Screen
+                name="formulario"
+                options={{
+                    title: 'formulario',
+                    tabBarIcon: ({ color }) => <FontAwesome size={28} name="file-text" color={color} />,
+                }}
+            />
 
         </Tabs>
     );
